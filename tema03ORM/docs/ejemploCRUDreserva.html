@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8" />
+<title>Reservas</title>
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+	<div>
+		<form action="reserva" method="POST">
+			Usuario: 
+			<select name="usuario"> 
+				<option value="2">Pepe</option>
+			</select>
+			<br/>
+			Fecha:
+			<input type="date" min="2019/10/25" max="2019/10/31" />
+			<br/>
+			Instalación:
+			<select>
+				<option value="3">Baloncesto</option>
+			</select>
+			<br/>
+			Horario:
+			<select>
+				<option value="120">de 9:00 a 10:00</option>
+			</select>
+			<br/>
+			<button type="submit">Reservar</button>
+		</form>
+	</div>
+</body>
+
+</html>
